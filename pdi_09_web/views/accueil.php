@@ -26,6 +26,7 @@
         <div id = "selection">
             <h1>Données</h1>
             <label>Perpignan<input v-model="perpignan" @change="cocher" type="checkbox" name="perpignan" ></label>
+            <label>Habitats d'intérêt<input v-model="habitat" @change="cocher2" type="checkbox" name="habitat" ></label>
         </div>
         
         </div>
